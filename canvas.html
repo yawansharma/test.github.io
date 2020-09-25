@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <link href="./canvascss.css" rel="stylesheet" />
+  </head>
+  <body>
+    <canvas></canvas>
+    <main>
+      <br />
+      <br />
+      <br />
+      <div class="container">
+        <div class="center">
+          <button class="clear">
+            <img src="./eraser.png" height="20" width="50" />
+          </button>
+          <br />
+          <label id="width" for="width">WIDTH</label>
+          <input
+            type="range"
+            class="width"
+            value="10"
+            id="width"
+            min="2"
+            max="100"
+            step="1"
+          />
+        </div>
+      </div>
+    </main>
+    <br />
+    <br />
+
+    <div id="buttons">
+      <input type="button" value="red" id="red" />
+      <input type="button" value="blue" id="blue" />
+      <input type="button" value="green" id="green" />
+      <input type="button" value="yellow" id="yellow" />
+      <input type="button" value="brown" id="brown" />
+      <input type="button" value="black" id="black" />
+      <input type="button" value="pink" id="pink" />
+      <input type="button" value="eraser" id="eraser" />
+    </div>
+    <script type="text/javascript" src="./canvas.js"></script>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+#phase1 {
+  text-align: center;
+  font-size: larger;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.username {
+  text-align: left;
+  margin-right: 50px;
+}
+.noofplayers {
+  text-align: center;
+  margin-right: 8.5%;
+}
+.playonline {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.image {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+h1 {
+  font-family: "Grandstander", cursive;
+  margin-left: 580px;
+}
+body {
+  background-image: url("./ld4.jpg");
+  background-repeat: no-repeat;
+  background-size: 1366px 768px;
+}
+#gif {
+  margin-left: 450px;
+  margin-top: 0;
+  object-position: 5px 10%;
+  opacity: 90%;
+}
+#playwithfriends:hover {
+  background: cyan;
+  background: -webkit-linear-gradient(bottom, blue 0%, cyan 100%);
+}
+#playonline:hover {
+  background: cyan;
+  background: -webkit-linear-gradient(bottom, blue 0%, cyan 100%);
+}

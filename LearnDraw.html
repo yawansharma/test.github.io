@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LearnDraw</title>
+    <link rel="stylesheet" href="LearnDrawCSS.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Grandstander&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body bgcolor="gray">
+    <img src="./giphy.gif" id="gif" />
+
+    <div id="image"></div>
+    <div id="phase1" class="username">
+      <form action="./canvas.html">
+        <label for="username">Name</label>
+        <input type="text" name="username" id="username" required />
+
+        <br />
+
+        <label for="playonline"></label>
+        <input
+          type="submit"
+          name="playonline"
+          id="playonline"
+          value="Play Online!"
+        />
+
+        <br />
+      </form>
+
+      <form action="./canvas.html" target="_blank">
+        <label for="playwithfriends"></label>
+        <input
+          type="submit"
+          name="playwithfriends"
+          id="playwithfriends"
+          value="Play With Friends"
+        />
+
+        <br />
+      </form>
+    </div>
+    <script src="./LearnDraw JS.js"></script>
+  </body>
+</html>

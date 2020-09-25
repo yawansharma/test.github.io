@@ -1,0 +1,111 @@
+canvas {
+  border: 1px solid black;
+  background: white;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+body {
+  margin: 0px;
+}
+button {
+  margin-left: 100px;
+}
+label {
+  margin-left: 20px;
+}
+.width {
+  margin-left: 5px;
+  padding: 0px;
+}
+#red {
+  padding: 20px 20px;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  margin-left: 50px;
+}
+#blue {
+  padding: 20px 20px;
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+}
+#yellow {
+  padding: 20px 20px;
+  background-color: yellow;
+  border: none;
+  border-radius: 5px;
+}
+#green {
+  padding: 20px 20px;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+}
+#brown {
+  padding: 20px 20px;
+  background-color: brown;
+  border: none;
+  border-radius: 5px;
+}
+
+#black {
+  padding: 20px 20px;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  color: grey;
+}
+
+#pink {
+  padding: 20px 20px;
+  background-color: pink;
+  border: none;
+  border-radius: 5px;
+}
+#eraser {
+  padding: 20px 20px;
+  background-color: lightgray;
+  border: none;
+  border-radius: 5px;
+}
+
+#width {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.clear {
+  margin-left: 130px;
+  padding: 5px 20px;
+  margin-bottom: 10px;
+  position: relative;
+  opacity: initial;
+  color: gray;
+}
+
+.container {
+  height: 20px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#buttons {
+  margin-left: 350px;
+}
+
+#text {
+  color: indigo;
+}
+
+#red:active {
+  border: 3px cyan;
+}
